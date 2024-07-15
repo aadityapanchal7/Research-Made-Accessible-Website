@@ -7,10 +7,12 @@ import Steps from './components/Steps'
 import Testimonials from './components/Testimonials'
 import Faqs from './components/Faqs'
 import Footer from './components/Footer'
+import { Analytics } from "@vercel/analytics/react"
 
 function page() {
   return (
     <section className=' bg-white '>
+      <Analytics />
       <Navbar />
       <Lander />
       <Info />
