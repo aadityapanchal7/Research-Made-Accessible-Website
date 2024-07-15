@@ -31,7 +31,7 @@ export const collegeList: List[] = [
     alt: 'johnHopkins Logo',
   }, 
   {
-    name: '/Mit.png',
+    name: '/MIT.png',
     width: 115,
     height: 200,
     alt: 'Mit Logo',
