@@ -15,12 +15,12 @@ function Info() {
         </h1>
         <div className= {` flex items-center text-2xl md:text-2xl p-10 md:p-0 pt-10  ${outfit.className}`}>
 
-          <p className=" bg-blue-200 p-5 text-2xl shadow-2xl rounded-2xl  mt-5 ">
+          <div className=" bg-blue-200 p-5 text-2xl shadow-2xl rounded-2xl  mt-5 ">
             Our mentorship program provides underserved 
             students with the opportunity to learn and 
             grow through research mentorship.
             <Impact />
-          </p>
+          </div>
 
         </div>        
 
