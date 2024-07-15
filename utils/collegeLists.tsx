@@ -31,10 +31,10 @@ export const collegeList: List[] = [
     alt: 'johnHopkins Logo',
   }, 
   {
-    name: '/Texastech.png',
-    width: 90,
+    name: '/Mit.png',
+    width: 115,
     height: 200,
-    alt: 'TexasTech Logo',
+    alt: 'Mit Logo',
   },   
   {
     name: '/Rice.png',
