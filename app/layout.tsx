@@ -1,4 +1,5 @@
 import React from 'react';
+import { Analytics } from "@vercel/analytics/react"
 import { Inter } from 'next/font/google';
 import '../styles/globals.css';
 
@@ -16,6 +17,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <body className={`${inter.className}`}>
         {children}
+        <Analytics />
       </body>
     </html>
   );
