@@ -22,9 +22,7 @@ function Module() {
             <h2 className="font-semibold text-2xl md:text-3xl text-blue-950">
               Interest
             </h2>
-            <p
-              className={`text-lg text-left mt-3 leading-relaxed text-balance ${outfit.className}`}
-            >
+            <p className={`text-lg text-left mt-3 leading-relaxed text-balance ${outfit.className}`}>
               Are you looking to dive into the world of research? Fill out the
               interest form with your contact and academic interests to get
               started.
@@ -39,11 +37,9 @@ function Module() {
             <h2 className="font-semibold text-xl md:text-2xl text-white mt-4">
               Matchmaking
             </h2>
-            <p
-              className={`text-md text-left mt-3 leading-relaxed text-balance text-blue-300 ${outfit.className}`}
-            >
-              After filling out the form, you'll be placed on a waitlist. Once
-              matched with a professor, you'll receive an email with further
+            <p className={`text-md text-left mt-3 leading-relaxed text-balance text-blue-300 ${outfit.className}`}>
+              After filling out the form, you&apos;ll be placed on a waitlist. Once
+              matched with a professor, you&apos;ll receive an email with further
               instructions. Keep an eye on your inbox!
             </p>
           </div>
@@ -65,17 +61,14 @@ function Module() {
             <h2 className="font-semibold text-2xl md:text-3xl text-blue-950">
               Research
             </h2>
-            <p
-              className={`text-lg text-left mt-3 leading-relaxed text-balance ${outfit.className}`}
-            >
-              If chosen based on your experience, you'll either start with introductory materials
-              or get direct guidance from your matched professor. You'll be able to
-              contact your mentor via email, Zoom, and more."
+            <p className={`text-lg text-left mt-3 leading-relaxed text-balance ${outfit.className}`}>
+              If chosen based on your experience, you&apos;ll either start with introductory materials
+              or get direct guidance from your matched professor. You&apos;ll be able to
+              contact your mentor via email, Zoom, and more.
             </p>
           </div>
         </div>
       </section>
-
     </article>
   );
 }
