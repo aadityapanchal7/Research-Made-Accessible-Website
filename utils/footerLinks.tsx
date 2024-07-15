@@ -1,9 +1,9 @@
-export interface Link {
+export interface Links {
   name: string;
   path: string;
 }
 
-export const links: Link[] = [
+export const links: Links[] = [
   {
     name: "Home",
     path: "/#Home",
@@ -13,7 +13,15 @@ export const links: Link[] = [
     path: "/#About",
   },
   {
+    name: "Colleges",
+    path: "/#Colleges",
+  },
+  {
     name: "Steps",
     path: "/#Steps",
+  },
+  {
+    name: "FAQs",
+    path: "/#FAQ",
   },
 ]

@@ -8,7 +8,7 @@ const outfit = Outfit({ subsets: ['latin'], weight: ['400'] });
 
 function Faqs() {
   return (
-    <section className={`w-full flex justify-center md:mt-40 mt-14 ${outfit.className}`}>
+    <section className={`w-full flex justify-center md:mt-40 mt-14 ${outfit.className}`} id='FAQ'>
       <div className="flex-col w-full max-w-3xl px-4">
         <h1 className={`text-4xl text-center md:text-5xl text-blue-950 ${karla.className}`}>
           Frequently Asked <span className="text-blue-400 md:pl-1">Questions</span>

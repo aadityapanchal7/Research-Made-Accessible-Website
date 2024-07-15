@@ -6,6 +6,7 @@ import Colleges from './components/Colleges'
 import Steps from './components/Steps'
 import Testimonials from './components/Testimonials'
 import Faqs from './components/Faqs'
+import Footer from './components/Footer'
 
 function page() {
   return (
@@ -17,6 +18,7 @@ function page() {
       <Steps />
       <Testimonials />
       <Faqs />
+      <Footer />
     </section>
   )
 }

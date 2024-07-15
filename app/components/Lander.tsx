@@ -1,5 +1,7 @@
 import React from "react";
 import { Outfit } from "next/font/google";
+import Link from "next/link";
+
 
 const outfit = Outfit({subsets: ['latin'], weight: ['400'] })
 
@@ -13,17 +15,21 @@ function Lander() {
             <span className="sm:block py-2 "> for everyone </span>
           </h1>
 
-          <p className="mx-auto max-w-xl sm:text-md/relaxed">
-            Making research, well accessible
+          <p className="mx-auto max-w-xl sm:text-md/relaxed text-balance">
+            Making research accessible, one student at a time.
           </p>
 
           <div className=" space-x-4 ">
-            <button className=" bg-blue-950 text-white py-2 px-4 rounded-2xl">
-              Join Now!
-            </button>
-            <button className=" bg-blue-950 text-white py-2 px-4 rounded-2xl">
-              Learn More!
-            </button>
+            <Link href='https://docs.google.com/forms/d/e/1FAIpQLScAsM4zgiswYBE-YvI2Ru33mOWoO1TNbQgqlVc79yAxDM2Z9w/viewform' target='_blank'>
+              <button className=" bg-blue-950 text-white py-2 px-4 rounded-2xl hover:bg-blue-300 duration-200">
+                Join Now!
+              </button>
+            </Link>
+            <Link href='/#Steps'>
+              <button className=" bg-blue-950 text-white py-2 px-4 rounded-2xl hover:bg-blue-300 duration-200">
+                Learn More!
+              </button>
+            </Link>
           </div>
 
         </div>

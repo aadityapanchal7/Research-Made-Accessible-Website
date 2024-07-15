@@ -6,7 +6,7 @@ const karla = Karla({ subsets: ['latin'], weight: ['700'] });
 
 function Steps() {
   return (
-    <section className=' mt-10'> 
+    <section className=' mt-10' id='Steps'> 
       <div className=' flex-col'>
         <div className=' flex justify-center w-full'>
           <h1 className={`text-4xl md:text-5xl mt-10 text-blue-950 ${karla.className}`}>

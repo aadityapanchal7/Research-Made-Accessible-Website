@@ -5,7 +5,7 @@ const karla = Karla({ subsets: ["latin"], weight: ["700"] });
 
 function Testimonials() {
   return (
-    <section className="flex justify-center mt-20 bg-gray-50 md:h-64">
+    <section className="flex justify-center mt-20 bg-gray-50 md:h-64" id='Testimonials'>
       <div className="w-full max-w-[1340px] flex flex-col md:flex-row">
         {/* Text Container */}
         <div className="md:w-1/2 flex items-center justify-center">

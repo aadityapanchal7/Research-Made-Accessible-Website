@@ -7,7 +7,7 @@ const karla = Karla({ subsets: ['latin'], weight: ['700'] });
 
 function Colleges() {
   return (
-    <section className="flex flex-col justify-center items-center bg-blue-100/45 w-full text-center mt-20 px-4 md:px-0">
+    <section className="flex flex-col justify-center items-center bg-blue-100/45 w-full text-center mt-20 px-4 md:px-0" id='Colleges'>
       <h1 className={`text-4xl md:text-5xl mt-10 text-blue-950 ${karla.className}`}>
         In Collaboration <span className="text-blue-400 md:pl-1">With</span>
       </h1>
