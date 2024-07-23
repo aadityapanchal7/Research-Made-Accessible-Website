@@ -20,7 +20,7 @@ function Faqs() {
               key={index}
             >
               <summary className="flex cursor-pointer items-center justify-between gap-1.5 font-semibold text-gray-800 rounded-lg bg-gray-50 p-4">
-                <h2 className="font-medium text-wrap pr-4">{element.Title}</h2>
+                <h2 className="font-semibold text-wrap pr-4">{element.Title}</h2>
                 <svg
                   className="size-5 shrink-0 transition duration-300 group-open:-rotate-180"
                   xmlns="http://www.w3.org/2000/svg"
@@ -36,7 +36,7 @@ function Faqs() {
                   />
                 </svg>
               </summary>
-              <p className="mt-2 leading-relaxed text-gray-700 text-wra pl-2">
+              <p className="mt-2 leading-relaxed text-gray-700 pl-2">
                 {element.Desc}
               </p>
             </details>

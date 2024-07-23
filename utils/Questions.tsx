@@ -5,19 +5,23 @@ export interface Question {
 
 export const questions: Question[] = [
   {
-    Title: "Test",
-    Desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit ipsum accusamus voluptatibus vitae quae exercitatione ",
+    Title: "Does our program cost money?",
+    Desc: " Nope! Our program is free of charge as our goal is to make research more accessible! ",
   },
   {
-    Title: "Test",
-    Desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit ipsum accusamus voluptatibus vitae quae exercitatione",
+    Title: "What does the program look like?",
+    Desc: " Our team puts you in contact with a professor, you would then talk to the professor about timing, and type of research to conduct.",
   },
   {
-    Title: "Test",
-    Desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit ipsum accusamus voluptatibus vitae quae exercitatione",
+    Title: "Do i get published?",
+    Desc: "Once you have finished your research, will will provide you with publishing opportunities so you can display it!",
   },
   {
-    Title: "Test",
-    Desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit ipsum accusamus voluptatibus vitae quae exercitatione",
+    Title: "How do i sign up?",
+    Desc: "Click the join now button on the home page, fill out our interest form, you will receive an email shortly about the next cohort dates! ",
+  },
+  {
+    Title: "What is the program acceptance rate?",
+    Desc: "The acceptance rate for one-on-one mentorship is about 50%, but we offer additional opportunities to work together in group settings and seminars. ",
   },
 ]

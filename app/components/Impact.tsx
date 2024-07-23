@@ -12,7 +12,7 @@ function Impact() {
         With Over
       </h1>   
       {Stats.map((item, index) => (
-        <div className="w-full sm:w-1/2 lg:w-1/2 p-4" key={index}>
+        <div className="w-full sm:w-1/3 lg:w-1/3 p-4" key={index}>
           <dl className="flex flex-col rounded-lg bg-blue-400/50 px-6 py-8 text-center">
             <dt className="order-last text-lg font-medium ">
               {item.name}
