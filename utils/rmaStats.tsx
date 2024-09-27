@@ -6,11 +6,11 @@ export interface Stat {
 export const Stats: Stat[] = [
   {
     name: "Mentors",
-    amount: "50+",
+    amount: "300+",
   },
   {
     name: "Mentees",
-    amount: "500+",
+    amount: "2000+",
   },
   {
     name: "Countries",
