@@ -9,9 +9,17 @@ function Testimonials() {
       <div className="w-full max-w-[1340px] flex flex-col md:flex-row md:max-w-[1263px] md:w-full md:flex">
         {/* Text Container */}
         <div className="md:w-1/2 flex items-center justify-center">
-          <h2 className={`text-3xl font-bold text-balance text-center tracking-tight text-blue-950 sm:text-5xl ${karla.className}`}>
-            Don&apos;t just take our <span className="text-blue-400">word</span> for it ...
-          </h2>
+         <div className=" flex-col md:w-1/2  items-center justify-center">
+            <h2 className={`text-3xl font-bold text-balance text-center tracking-tight text-blue-950 sm:text-5xl ${karla.className}`}>
+              Don&apos;t just take our <span className="text-blue-400">word</span> for it ...
+            </h2>
+
+            <a href="/testimonials">
+              <button className=" p-4 rounded-2xl mt-5 md:ml-12 ml-24 items-center  flex justify-center bg-blue-950 text-white">
+                View More Testimonials!
+              </button>
+            </a>
+         </div>
         </div>
 
         {/* Video Container */}
