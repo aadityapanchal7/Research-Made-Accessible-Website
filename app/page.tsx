@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from './components/Navbar'
+import Nav from './components/Nav'
 import Lander from './components/Lander'
 import Info from './components/Info'
 import Colleges from './components/Colleges'
@@ -11,7 +11,7 @@ import Footer from './components/Footer'
 function page() {
   return (
     <section className=' bg-white '>
-      <Navbar />
+      <Nav />
       <Lander />
       <Info />
       <Colleges />

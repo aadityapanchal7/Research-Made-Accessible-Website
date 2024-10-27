@@ -16,4 +16,12 @@ export const links: Link[] = [
     name: "Steps",
     path: "/#Steps",
   },
+  {
+    name: "Testimonials",
+    path: "/testimonials",
+  },
+  {
+    name: "Team",
+    path: "/team",
+  },
 ]

@@ -2,7 +2,7 @@ import React from "react";
 import { Karla } from "next/font/google";
 import { Stats } from "../../utils/rmaStats";
 
-const karla = Karla({ subsets: ["latin"], weight: ["700"] });
+const karla = Karla({ subsets: ["latin"], weight: ["500"] });
 
 function Impact() {
   return (
@@ -12,8 +12,8 @@ function Impact() {
         With Over
       </h1>   
       {Stats.map((item, index) => (
-        <div className="w-full sm:w-1/3 lg:w-1/3 p-4" key={index}>
-          <dl className="flex flex-col rounded-lg bg-blue-400/50 px-8 py-8 text-center">
+        <div className=" p-4" key={index}>
+          <dl className="flex flex-col rounded-lg bg-blue-400/50 px-5 py-5 text-center">
             <dt className="order-last text-lg font-medium ">
               {item.name}
             </dt>

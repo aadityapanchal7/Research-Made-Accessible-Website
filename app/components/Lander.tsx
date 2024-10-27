@@ -8,7 +8,7 @@ const outfit = Outfit({subsets: ['latin'], weight: ['400'] })
 function Lander() {
   return (
     <section className={`bg-white z-[-10] ${outfit.className}`}>
-      <div className="mx-auto max-w-screen-xl px-8 flex lg:h-[500px] items-center h-[800px]">
+      <div className="mx-auto max-w-screen-xl px-8 flex lg:h-[600px] items-center h-[800px]">
         <div className="mx-auto max-w-3xl text-center justify-start space-y-6 bg-blue-50/60 md:p-10 md:px-20 py-20 md:py-10 rounded-2xl shadow-md ">
           <h1 className="bg-gradient-to-r from-blue-950  to-blue-400 bg-clip-text text-5xl font-extrabold text-transparent md:text-6xl lg:text-7xl">
             Inclusive Academia
