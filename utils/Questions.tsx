@@ -13,11 +13,11 @@ export const questions: Question[] = [
     Desc: " Our team puts you in contact with a professor, you would then talk to the professor about timing, and type of research to conduct.",
   },
   {
-    Title: "Do i get published?",
+    Title: "Will I get published?",
     Desc: "Once you have finished your research, will will provide you with publishing opportunities so you can display it!",
   },
   {
-    Title: "How do i sign up?",
+    Title: "How do I sign up?",
     Desc: "Click the join now button on the home page, fill out our interest form, you will receive an email shortly about the next cohort dates! ",
   },
   {
