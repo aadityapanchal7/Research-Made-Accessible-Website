@@ -31,9 +31,19 @@ export const Teamutil: types[] = [
     desc: 'Co-Founder',
   },
   {
-    image: '/aneesh.jpg',
+    image: '',
     name: 'Sudhanva Vasista',
     desc: 'Chief of Operations',
+  },
+  {
+    image: '/aadi.JPG',
+    name: 'Aaditya Panchal',
+    desc: 'Program Director',
+  },
+  {
+    image: '',
+    name: 'Rishan Hemrajani',
+    desc: 'Program Director',
   },
 ];
 
