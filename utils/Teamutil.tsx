@@ -36,7 +36,7 @@ export const Teamutil: types[] = [
     desc: 'Chief of Operations',
   },
   {
-    image: '/aadi.JPG',
+    image: '/aadi.jpeg',
     name: 'Aaditya Panchal',
     desc: 'Program Director',
   },
